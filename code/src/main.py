@@ -65,8 +65,8 @@ def suggest_remediation_ai(anomalies):
 
 # Step 7: Execute the Full Pipeline
 if __name__ == "__main__":
-    input_file = "data/transactions.csv"
-    output_file = "output/processed_transactions.csv"
+    input_file = "transactions.csv"
+    output_file = "processed_transactions.csv"
 
     # Load dataset
     data = load_data(input_file)
